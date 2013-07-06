@@ -1,4 +1,4 @@
-all: perl php python ruby tcl lisp javascript applescript
+all: perl php python ruby tcl lisp javascript applescript d
 
 perl:
 	perl hello.pl
@@ -23,3 +23,6 @@ javascript:
 
 applescript:
 	osascript hello.scpt
+
+d:
+	sudo dtrace -q -s hello.d
